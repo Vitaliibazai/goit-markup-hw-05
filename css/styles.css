@@ -409,6 +409,7 @@ opacity: 1;
     padding: 72px 24px 24px 24px;
 }
 .modal-close{
+    padding: 0;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -417,6 +418,9 @@ opacity: 1;
     height: 24px;
     border: 1px solid rgba(0, 0, 0, 0.1); 
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
     .modal-close:hover{
         background-color: #404BBF;
@@ -507,4 +511,78 @@ background-color: #404BBF;
  .modal-textarea::placeholder{
 color: rgba(46, 47, 66, 0.4);
  }
- 
+ .check-text{
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 0.875em;
+letter-spacing: 0.04em;
+color: #757575;
+display: flex;
+align-items: center;
+
+
+ }
+ .check-element{
+     width: 16px;
+     height: 16px;
+     border: 1px solid rgba(46, 47, 66, 0.4);
+     border-radius: 2px;
+     margin-right: 8px;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     fill: transparent;
+     }
+ .modal-check:checked + .check-text .check-element{
+background-color: #404BBF;
+border: none;
+fill: #F4F4FD;
+ }
+ .footer-form{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .footer-container{
+    display: flex;
+ }
+ .footer-email-text{
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5em;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+display: inline-block;
+margin-bottom: 4px;
+
+ }
+ .footer-input{
+    margin-right: 24px;
+    width: 264px;
+    height: 40px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: transparent;
+    padding-left: 16px;
+    padding-right: 16px;
+    }
+.footer-input::placeholder{
+font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5em;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+    }
+    .footer-button{
+        min-width: 165px;
+        height: 40px;
+        padding-left: 24px;
+    }

@@ -385,11 +385,24 @@
 </svg>
                         </a>
                     </li>
-                </ul> 
+                </ul>
+                </div>
+                <form class="footer-form">
+                    <div class="footer-container">
+                        <label for="footer-input" class="footer-email-text">Subscribe</label>
+                    <input
+                    class="footer-input" 
+                    type="email" 
+                    name="footer-email"
+                    id="footer-email"
+                    placeholder="Email"/>
+                    </div>
+                <button type="submit" class="button footer-button">Subscribe</button>
+            </form> 
 </div>
 </div>
 </footer>
-<div class="backdrop is-open">
+<div class="backdrop">
     <div class="modal">
             <button type="button" class="modal-close">
             <svg class="modal-close-icon" width="8" height="8">
@@ -422,6 +435,18 @@
              <div class="modal-field">
             <label for="comment" class="modal-input-text">Comment</label>
             <textarea name="comment" id="comment" class="modal-textarea modal-item" placeholder="Text input"></textarea>
+            </div>
+            <div class="modal-field">
+            <input 
+            type="checkbox" 
+            class="modal-check visually-hidden" 
+            name="policy" 
+            id="policy" 
+            value="true"/>
+            <label for="policy" class="check-text"><span class="check-element">
+            <svg class="vector-icon" width="10" height="8"><use href="./images/icons.svg#icon-vector"></use></svg>
+
+            </span>I accept the terms and conditions of the <a href="">Privacy Policy</a></label>
             </div>
             <button type="submit" class="modal-button">Send</button>
 </form>
