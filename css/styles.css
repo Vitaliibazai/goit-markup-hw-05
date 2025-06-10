@@ -457,7 +457,7 @@ opacity: 1;
     margin-bottom: 16px;
     }
     .modal-field{
-margin-bottom: 16px;
+     margin-bottom: 8px;
     }
     .modal-item{
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -568,7 +568,7 @@ fill: #F4F4FD;
  }
  .footer-form{
    display: flex;
-   gap: ;24px;
+   gap: 24px;
    }
  .footer-container{
     display: flex;
