@@ -430,10 +430,12 @@ opacity: 1;
     .modal-close:hover{
         background-color: #404BBF;
         border: none;
+        
     }
     .modal-close:focus{
         background-color: #404BBF;
         border: none;
+        
     }
     .modal-close-icon{
     fill: #2E2F42; 
@@ -634,4 +636,7 @@ color: #FFFFFF;
     .send-icon{
         fill: #FFFFFF;
         margin-left: 16px;
+    }
+    .modal-field-comment{
+        margin-bottom: 16px;
     }
