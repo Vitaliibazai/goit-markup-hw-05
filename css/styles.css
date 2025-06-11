@@ -356,6 +356,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     line-height: 1.5em;
     letter-spacing: 0.02em;
     max-width: 264px;
+    margin-bottom: 16px;
     }
 .footer-span{
     color: #F4F4FD;
@@ -427,26 +428,23 @@ opacity: 1;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .modal-close:hover{
+    .modal-close:hover .modal-close-icon {
         background-color: #404BBF;
         border: none;
-        
+        fill: #FFFFFF;
+              
     }
-    .modal-close:focus{
+    .modal-close:focus .modal-close-icon {
         background-color: #404BBF;
         border: none;
+        fill: #FFFFFF;
         
     }
     .modal-close-icon{
     fill: #2E2F42; 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-icon:hover{
-    fill: #FFFFFF;
-}
-.modal-close-icon:focus{
-    fill: #FFFFFF;
-}
+
 
 .modal-title{
     color: #2E2F42;
@@ -572,7 +570,7 @@ fill: #F4F4FD;
    gap: 24px;
    }
  .footer-container{
-    display: flex;
+    
  }
  .footer-email-text{
 font-family: Roboto;
@@ -639,4 +637,7 @@ color: #FFFFFF;
     }
     .modal-field-comment{
         margin-bottom: 16px;
+    }
+    .social-container{
+        margin-right: 80px;
     }
